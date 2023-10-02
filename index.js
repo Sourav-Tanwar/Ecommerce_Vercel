@@ -14,13 +14,10 @@ main().catch(err => console.log(err));
 
 async function main() {
   await mongoose.connect(process.env.MONGO_URL);
-  console.log('database connected')
+  console.log('database connected on 8081 Port ')
 }
 //Schema
-
-
  
-
 
 
 
